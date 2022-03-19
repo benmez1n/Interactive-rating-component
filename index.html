@@ -8,47 +8,47 @@
   <link rel="stylesheet" href="styles/output.css">
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
-<body class="bg-VeryDarkBlue flex place-items-center place-content-center">
-  <main class="bg-DarkBlue text-White w-1/3 px-9 py-8 rounded-2xl">
+<body>
+  <main>
     
     <!-- Rating state start -->
     <div class="rating-state">
 
-      <div class="p-3 rounded-full bg-LightGrey w-fit mb-7">
+      <div>
         <img src="images/icon-star.svg" alt="star">
       </div>
 
-      <span class="font-bold text-2xl py-4">How did we do?</span>
+      <span>How did we do?</span>
   
-      <p class="text-MediumGrey mt-4">
+      <p>
         Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </p>
   
-      <ul class="flex justify-around my-5 text-DarkBlue font-semibold">
-        <li class="selected px-4 py-1.5 text-xl bg-LightGrey opacity-40 cursor-pointer rounded-full">1</li>
-        <li class="px-4 py-1.5 text-xl bg-LightGrey opacity-40 cursor-pointer rounded-full">2</li>
-        <li class="px-4 py-1.5 text-xl bg-LightGrey opacity-40 cursor-pointer rounded-full">3</li>
-        <li class="px-4 py-1.5 text-xl bg-LightGrey opacity-40 cursor-pointer rounded-full">4</li>
-        <li class="px-4 py-1.5 text-xl bg-LightGrey opacity-40 cursor-pointer rounded-full">5</li>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
       </ul>
   
-      <button class="bg-Orange w-full p-3 text-center rounded-3xl">Submit</button>
+      <button>Submit</button>
     </div>
 
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
 
-    <div class="thank-state text-center hidden">
-      <div class="flex place-content-center mb-7">
+    <div class="thank-state">
+      <div>
         <img src="images/illustration-thank-you.svg" alt="Thank You">
       </div>
-      <p class="py-2 px-6 mb-6 mx-auto bg-MediumGrey w-fit text-Orange rounded-2xl">You selected <!-- Add rating here --> out of 5</p>
+      <p>You selected <span id="user-rate">0</span> out of 5</p>
 
-      <span class="font-bold text-2xl py-4">Thank you!</span>
+      <span >Thank you!</span>
   
-      <p class="text-MediumGrey mt-3">
+      <p>
         We appreciate you taking the time to give a rating. If you ever need more support, 
         don’t hesitate to get in touch!
       </p>
